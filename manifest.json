@@ -1,0 +1,17 @@
+{
+  "default-remote": "apache",
+  "default-refspec": "trunk",
+
+  "remotes": {
+    "apache": {
+      "fetch": "git://git.apache.org/%(name)s.git"
+    }
+  },
+
+  "projects": {
+    "hadoop-common": { "track-branch": "trunk" },
+    "hadoop-hdfs": { "track-branch": "trunk" },
+    "hadoop-mapreduce": { "track-branch": "trunk" }
+  }
+}
+      
